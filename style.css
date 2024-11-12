@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Sora:wght@100..800&display=swap');
+
+:root{//jika ada perubahan edit disini saja, semua auto keubah
+    --primary: #3450f3;
+    --ink: #333;
+    --accent-green: #c3f499;
+    --accent-orange: #ff985f;
+    --accent-blue: blue;
+    --subtle: 
+    --invert:
+}
+
+body {
+    font-family:"Sora", serif;
+    margin: 0;
+}
+.page-center{
+    width: 90%;
+    margin: 0 auto;//top botom di set 0 dan left right di ser auto
+    max-width: 1200px;// agar content tidak lebar lebih dari 1200px ketika digunakan di device yang lebih lebar
+
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    align-item: center;
+}
+
+ul{
+    list-style:none;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+}
+
+button{
+    border: none;
+    border-radius: 100px;
+    padding: 12px 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primary{
+    background-color: var(--primary);
+    color: var(--invert)
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+}
+
+.about-content{
+    display:flex;
+    
+}
+
+p.about-description{
+    width:70px;
+}
+
+.card{
+    border-radius: 48px;
+    padding: 24px;
+    flex:1;
+}
+
+.group-card{
+    display: flex;
+    gap:20px;
+}
+
+.card-top{
+    dipslay:flex;
+    justify-content: space-between;
+}
+
+.label{
+    border:;
+    padding:;
+    border-radius:;
+    width:;
+}
+.green{
+
+}
+
+.orange{
+
+}
+
+.blue{
+
+}
+
+//utk desktop
+@media(min-width: 768px){
+    .hero-content{
+        gap: 40px;
+    }
+}
+
+//utk mobile
+@media(max-width: 768px){
+    .hero-content{
+        flex-direction: column;
+    }
+    .about-content {
+        position:relative;
+    
+    }
+    .about-content img {
+        
+    }
+   
+}
+
+
